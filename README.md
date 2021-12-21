@@ -1,2 +1,2 @@
 # HTML
-Study python
+Study HTML
