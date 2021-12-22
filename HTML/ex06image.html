@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- 이미지 태그 : 웹페이지에 이미지를 띄울 때 사용하는 태그 
+    필수속성 src(source) -->
+
+    <!-- 1. 절대경로 : 외부의 이미지를 가져올 때 사용 -->
+    <img
+      src="https://blog.kakaocdn.net/dn/ZjmpX/btqNMOj3Yll/zCUy8CXxlfDep2Q2boLzV0/img.jpg"
+      width="500px"
+      alt=""
+    />
+
+    <!-- 2. 상대경로 : 특정 위치를 기준으로 파일을 찾는 경로 
+        (1) 현재를 기준으로  ./
+        (2) 상위를 기준으로 ../
+        (3) 루트를 기준으로
+            ex) 3개의 폴더를 나와야 한다면 ../../../
+        (4) 최상위를 기준으로 가는 방법 그냥 '/' 만 치면 됨!!!!!! 
+    -->
+
+    <img src="./img/image.jpg" width="500px" alt="" />
+  </body>
+</html>
